@@ -198,6 +198,19 @@
     display:grid; grid-template-columns:1.1fr 0.9fr; gap:48px; align-items:center;
     transform-origin:center 60%;
   }
+  @media (max-width: 820px) {
+    #hero-pin { height: auto; }
+    #hero {
+      height: auto;
+      padding-top: 130px;
+      padding-bottom: 60px;
+      position: relative;
+    }
+    .hero-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
   #hero h1{ font-size:clamp(3.2rem, 8vw, 5.6rem); }
   #hero .tagline{
     font-family:'Quicksand',sans-serif; font-weight:700; font-size:1.35rem;
